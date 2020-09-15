@@ -4,7 +4,7 @@ import unittest
 from Utilities.BaseClass import BaseClass
 from pageObjects.HomePage import HomePage
 
-
+# class to test
 class TestingE2E(BaseClass):
     def test_e2e(self):
         homePage = HomePage(self.driver)
