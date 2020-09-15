@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 from pageObjects.CartPage import Cart
 
-
+# class home page simulated a page
 class HomePage:
     input_search = (By.XPATH, "//input[@type='search']")
     logo = (By.XPATH, '//div[@class="brand greenLogo"]')
